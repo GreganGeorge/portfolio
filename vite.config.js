@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/portfolio/',  // Adjust this to match the "homepage" field
   build: {
-    outDir: 'build',
+    outDir: 'dist',
     rollupOptions: {
       output: {
         manualChunks(id) {
