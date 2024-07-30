@@ -19,6 +19,7 @@ import {
     threejs,
     tastybyte,
     predictor,
+    netflix,
   } from "../assets";
   
   export const navLinks = [
@@ -181,6 +182,27 @@ import {
       ],
       image: predictor,
       source_code_link: "https://github.com/GreganGeorge/Predictor",
+    },
+    {
+      name: "Netflix Clone",
+      description:
+        "Developed a Netflix clone, featuring dynamic movie categorization, interactive trailers, genre selection, and personalized user lists for an enhanced user experience.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ASP.NET Web API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SQL Server",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: netflix,
+      source_code_link: "https://github.com/GreganGeorge/Netflix-clone",
     },
   ];
   

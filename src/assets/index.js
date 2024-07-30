@@ -36,6 +36,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import tastybyte from "./tastybyte1.jpg";
 import predictor from "./predictor.jpg";
+import netflix from "./netflix1.jpg";
 
 export {
   logo,
@@ -73,4 +74,5 @@ export {
   tripguide,
   tastybyte,
   predictor,
+  netflix,
 };

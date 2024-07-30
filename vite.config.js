@@ -1,20 +1,22 @@
+// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio/',  // Adjust this to match the "homepage" field
+  base: '/portfolio/',
   build: {
     outDir: 'dist',
+    chunkSizeWarningLimit: 2000, // Adjust chunk size warning limit as needed
     rollupOptions: {
       output: {
         manualChunks(id) {
+          // Example: Manually define chunks
           if (id.includes('node_modules')) {
-            return id.toString().split('node_modules/')[1].split('/')[0].toString();
+            return 'vendor'; // Group all node_modules into a vendor chunk
           }
         },
       },
-      chunkSizeWarningLimit: 1000,
     },
   },
 });
