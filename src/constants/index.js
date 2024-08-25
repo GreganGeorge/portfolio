@@ -20,6 +20,8 @@ import {
     tastybyte,
     predictor,
     netflix,
+    librescribe,
+    todo
   } from "../assets";
   
   export const navLinks = [
@@ -34,6 +36,14 @@ import {
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "resume",
+      title: "Resume",
+    },
+    {
+      id: "linkedin",
+      title: "LinkedIn",
     },
   ];
   
@@ -203,6 +213,40 @@ import {
       ],
       image: netflix,
       source_code_link: "https://github.com/GreganGeorge/Netflix-clone",
+    },
+    {
+      name: "LibreScribe",
+      description:
+        "LibreScribe is an advanced web application designed to streamline the process of recording, transcribing, and translating audio content. Users can easily record audio, which is then transcribed using the OpenAI Whisper-Tiny.en model. The transcribed text can be translated into multiple languages using the Xenova translation model, powered by Huggingface.js.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "whisper-tiny.en",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Xenova model",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: librescribe,
+      source_code_link: "https://github.com/GreganGeorge/LibreScribe",
+    },
+    {
+      name: "To-Do List",
+      description:
+        "The app features the ability to add tasks with the current date, mark them as completed, and delete tasks as needed.",
+      tags: [
+        {
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: todo,
+      source_code_link: "https://github.com/GreganGeorge/todolist",
     },
   ];
   

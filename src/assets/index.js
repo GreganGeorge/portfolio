@@ -9,6 +9,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from './LinkedIn_icon_circle.svg.png';
  
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -37,6 +38,8 @@ import tripguide from "./tripguide.png";
 import tastybyte from "./tastybyte1.jpg";
 import predictor from "./predictor.jpg";
 import netflix from "./netflix1.jpg";
+import librescribe from './LibreScribe1.jpg';
+import todo from './todo3.jpg';
 
 export {
   logo,
@@ -48,6 +51,7 @@ export {
   mobile,
   web,
   github,
+  linkedin,
   menu,
   close,
   css,
@@ -75,4 +79,6 @@ export {
   tastybyte,
   predictor,
   netflix,
+  librescribe,
+  todo,
 };

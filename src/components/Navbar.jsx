@@ -19,7 +19,7 @@ const Navbar = () => {
           {navLinks.map((link)=>(
             <li key={link.id} className={`${active  === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px]
             font-medium cursor-pointer`} onClick={()=>setActive(link.title)}>
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={active==='Resume'?window.open("https://www.canva.com/design/DAGMIwS7qgw/kt68uNRX2nZXQfmml0RMWg/edit","_blank"):active==='LinkedIn'?window.open("https://www.linkedin.com/in/gregan7/","_blank"):`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
